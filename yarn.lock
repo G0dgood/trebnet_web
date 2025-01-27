@@ -4030,6 +4030,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^1.7.9":
+  version: 1.7.9
+  resolution: "axios@npm:1.7.9"
+  dependencies:
+    follow-redirects: ^1.15.6
+    form-data: ^4.0.0
+    proxy-from-env: ^1.1.0
+  checksum: cb8ce291818effda09240cb60f114d5625909b345e10f389a945320e06acf0bc949d0f8422d25720f5dd421362abee302c99f5e97edec4c156c8939814b23d19
+  languageName: node
+  linkType: hard
+
 "axobject-query@npm:^4.1.0":
   version: 4.1.0
   resolution: "axobject-query@npm:4.1.0"
@@ -6703,7 +6714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.6":
   version: 1.15.9
   resolution: "follow-redirects@npm:1.15.9"
   peerDependenciesMeta:
@@ -6771,6 +6782,17 @@ __metadata:
     combined-stream: ^1.0.8
     mime-types: ^2.1.12
   checksum: 25ffdeed693c8fc59b56082d15ad63f11688fabac2d14918fb339170020f66295e520a6659f3a698217f15c7924fbc593117ecd61d8391a146ea06d686793622
+  languageName: node
+  linkType: hard
+
+"form-data@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "form-data@npm:4.0.1"
+  dependencies:
+    asynckit: ^0.4.0
+    combined-stream: ^1.0.8
+    mime-types: ^2.1.12
+  checksum: ccee458cd5baf234d6b57f349fe9cc5f9a2ea8fd1af5ecda501a18fd1572a6dd3bf08a49f00568afd995b6a65af34cb8dec083cf9d582c4e621836499498dd84
   languageName: node
   linkType: hard
 
@@ -11132,6 +11154,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"proxy-from-env@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "proxy-from-env@npm:1.1.0"
+  checksum: ed7fcc2ba0a33404958e34d95d18638249a68c430e30fcb6c478497d72739ba64ce9810a24f53a7d921d0c065e5b78e3822759800698167256b04659366ca4d4
+  languageName: node
+  linkType: hard
+
 "psl@npm:^1.1.33":
   version: 1.15.0
   resolution: "psl@npm:1.15.0"
@@ -13157,6 +13186,7 @@ __metadata:
     "@types/node": ^16.7.13
     "@types/react": ^18.0.0
     "@types/react-dom": ^18.0.0
+    axios: ^1.7.9
     bootstrap: ^5.3.3
     crypto-js: ^4.2.0
     react: ^19.0.0
