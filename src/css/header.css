@@ -1,0 +1,33 @@
+#header {
+  grid-area: header;
+  background: var(--background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 20px; 
+}
+ 
+
+/* Media query for small screens */
+@media screen and (max-width: 1080px) {
+   #header {
+  grid-area: header;
+  background: var(--background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+   padding:  0px 1rem !important; 
+}
+}
+@media screen and (max-width: 768px) {
+
+  #header {
+  grid-area: header;
+  background: var(--background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+   padding: 10px 20px !important; 
+}
+ 
+}

@@ -1,13 +1,154 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+@import url(./css/input.css);  
+@import url(./css/NotFound.css);  
+@import url(./css/footer.css);  
+@import url(./css/header.css);  
+@import url(./css/HomeScreen.css);  
+@import url(./css/Login.css);  
+@import url(./css/Project.css);  
+@import url(./css/Directory.css);  
+ 
+ 
+
+ *,
+::before,
+::after {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box  ; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+:root {
+  --white: #fff;
+  --background: #F6F8FA;
+  --photo-background: #F4F4F4;
+  --accent-black: #000;
+  --accent-black-two: #05162E;
+  --accent-red: #FF0000;
+  --second-text-color: #737373;
+  --text-color: #05162E; 
+  --underline-text: #393646; 
+  --text-input: #393E46;  
+  --accent-profile:#F8C993;  
+  --border-color: #e5e4e9;  
+  --border:#34495D;  
 }
+
+
+html,
+body {
+   font-family: 'Montserrat', sans-serif ;
+ line-height: 1.3;
+  padding-left: 0px ;
+  font-size: 12px ;
+}
+ img, 
+svg {
+  display: block ; 
+  max-width: 100% ;
+}
+
+input {
+  font-size: 16px;
+}
+
+/* input,  */
+button, 
+textarea, 
+select,
+ table {
+  font: inherit ;
+  box-sizing: border-box ;
+   font-size: 12px ;
+}
+@media (max-width: 1200px) {
+/* input,  */
+button, 
+textarea, 
+select,
+ table{
+  font: small ; 
+}
+}
+a {
+  text-decoration: none !important;
+   color: inherit; 
+   cursor: pointer;
+}
+
+button:active{
+  border: none;
+transform: scale(0.98) !important; 
+}
+ 
+button{
+  border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
+}
+
+/* Scrollbar container */
+::-webkit-scrollbar {
+  width: 6px;  
+  height: 6px;  
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;  
+  border-radius: 6px;  
+}
+
+/* Scrollbar handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #8888886f;  
+  border-radius: 6px;  
+}
+
+/* Hover effect on the handle */
+::-webkit-scrollbar-thumb:hover {
+  background: #5555559f;  
+}
+
+
+
+main {
+  grid-area: main ; 
+  overflow-y: auto; 
+  background:  var(--background); 
+  width: 100%;
+  padding: 20px; 
+}
+ 
+
+ #page-wrapper {
+  display: grid ;
+  position: relative; 
+  height: 100dvh ;
+  grid-template-columns: max-content 1fr ;
+  grid-template-rows: 50px 1fr ;
+  grid-template-areas:
+    "header header"
+    "main main" 
+    "footer footer";   
+}
+ 
+/* Media query for small screens */
+@media screen and (max-width: 1080px) {
+  /* #side-nav {
+    display: block;
+  } */
+
+ 
+main {
+    grid-area: main;
+    overflow-y: auto;
+    background: var(--background) !important;
+    width: 100%;
+    padding: 0px 0px ; 
+} 
+}
+
+ 
+ 

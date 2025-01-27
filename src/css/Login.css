@@ -1,0 +1,93 @@
+.login_container {
+  display: flex; 
+		justify-content: center;
+  align-items: center;
+  gap: 8px;  
+		width: 100%;
+		height: 100%;
+      background: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(61, 0, 0, 0.7)), 
+              url('../assets/image/skech.png');  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkbox_container{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+ margin-bottom: 20px;
+}
+
+.container_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input_container {
+  height: 120px;
+  width: 300px;
+  background-color: #fc0000;
+}
+
+.input_container_two_main {
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.input_container_two {
+  height: 30px;
+  width: 100%;
+}
+
+.input_container_three {
+  padding: 20px;
+  background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input_container_three input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input_container_forget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+		background-color: #e9e9e9;
+}
+
+.login_title_container {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #fc0000;
+  width: 100%; 
+}
+
+.login_title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.headerImage {
+  color: #808080;
+  position: absolute;
+  bottom: -90px;
+  left: -35px;
+}
