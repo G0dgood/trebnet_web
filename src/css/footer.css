@@ -40,3 +40,145 @@ height: 35px;
  
 
  
+
+
+.footer_container_main{
+	display: flex;
+	justify-content: space-between;
+	padding: 64px 112px;
+}
+
+
+.footer_first_two{ 
+width: 315px;
+height: 72px; 
+font-style: normal;
+font-weight: 400;
+font-size: 16spx;
+line-height: 24px; 
+color: var(--white);  
+}
+
+ 
+
+.footer_top{ 
+height: 28px;
+left: 35.28%;
+right: 59.17%;
+top: calc(50% - 28px/2 + 8px); 
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px; 
+color: var(--white);  
+}
+
+.footer_top_p{  
+height: 28px;  
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;  
+color: var(--white); 
+}
+
+.footer_top_container{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.footer_top_container_h1{
+	font-weight: bold;
+	font-size:30px;
+	color: var(--white);
+}
+
+.footer_copyright{  
+width: 100%;
+height: 68px;   
+  background: linear-gradient(45deg, #FF0000, #3D0000);
+}
+
+.footer_container_easily{
+	height: 200px;
+}
+
+.footer_container_second{
+	display: flex;
+	flex-direction: column; 
+}
+
+
+.footer_container{ 
+width: 100%;
+/* height: 706px;   */
+background: #292D32;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+
+
+.footer_copyright{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	gap: 5px;
+	align-items: center;
+	color: var(--white);
+	width: 100%;
+}
+ 
+.footer_copyright h4 { 
+font-style: normal;
+font-weight: 500;
+font-size: 19.6px;
+line-height: 22px;  
+color: var(--white); 
+}
+
+.icon_button_input{
+	display: flex;
+	align-items: center;
+}
+
+.icon_button_input input{ 
+box-sizing: border-box; 
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 15px; 
+width: 316px;
+height: 50px; 
+background: var(--white);
+border: 1px solid var(--accent-red);
+border-radius: 6px 0px 0px 6px;
+
+}
+
+
+/* Responsive styles for mobile screens */
+@media (max-width: 1080px) {
+	.footer_container_main {
+		flex-direction: column;  
+		padding: 32px 16px;  
+		gap: 30px;  
+		/* align-items: center;   */
+	}
+
+	.icon_button_input input{ 
+box-sizing: border-box; 
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 15px; 
+width: 100%;
+height: 50px; 
+background: var(--white);
+border: 1px solid var(--accent-red);
+border-radius: 6px 0px 0px 6px;
+
+}
+}
+
+
