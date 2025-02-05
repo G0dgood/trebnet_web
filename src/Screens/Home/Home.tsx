@@ -155,11 +155,6 @@ const Home = () => {
 				{/* Landing Page */}
 				<GetYours />
 				<LatestNews />
-				{/* Revolutionary */}
-				{/* <Revolutionary /> */}
-				{/* ECommerce */}
-				{/* <ECommerce /> */}
-				{/* Frequently Asked Questions */}
 				<ExclusiveBenefits />
 				<FAQ />
 				{/* Footer */}

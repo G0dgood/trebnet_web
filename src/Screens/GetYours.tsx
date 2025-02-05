@@ -6,7 +6,7 @@
 const GetYours = () => {
 	return (
 		<section className='section_one '>
-			<main className='section_one_sub_top'>
+			<div className='section_one_sub_top'>
 
 
 				<div className='section_one_sub '>
@@ -24,7 +24,7 @@ const GetYours = () => {
 				<div>
 					{/* <img src={phone} alt="phone" /> */}
 				</div>
-			</main>
+			</div>
 
 		</section>
 	)
