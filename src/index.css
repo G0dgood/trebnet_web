@@ -1,12 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
  
-@import url(./css/input.css);  
-/* @import url(./css/NotFound.css);  
-@import url(./css/footer.css);  
-@import url(./css/header.css);  
-@import url(./css/HomeScreen.css);   */
-@import url(./css/Login.css);  
-/* @import url(./css/Project.css);   */
+@import url(./css/input.css);   
+@import url(./css/Login.css);   
 @import url(./css/HomeScreen.css); 
 @import url(./css/Directory.css);  
  @import url(./css/Navbar.css);
@@ -15,6 +10,11 @@
 @import url(./css/Home.css);   
 @import url(./css/Footer.css); 
  @import url(./css/Project.css);   
+
+
+ /* @import url(./css/NotFound.css);  
+@import url(./css/footer.css);  
+@import url(./css/header.css);     */
  
 
  *,
