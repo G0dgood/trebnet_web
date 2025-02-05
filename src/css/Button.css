@@ -1,0 +1,118 @@
+#btn{ 
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 14px;    
+height: 40px; 
+background: linear-gradient(45deg, #FF0000, #3D0000);
+border-radius: 6px;  
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;  
+color: var(--white);  
+}
+
+.btn_prop{
+	padding: 0px  37px !important;
+}
+
+ 
+
+ 
+
+.btn-case{ 
+box-sizing: border-box; 
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 18px;  
+height: 36px; 
+border: 1px solid #00539C;
+border-radius: 25.5px; 
+ 
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;   
+text-align: center; 
+color: var(--black);  
+}
+
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--white);
+    border: 0 !important;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition); 
+				outline: 0px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color) !important;
+    background-color: var(--white) !important;
+    box-shadow: 0 !important ;
+}
+
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+				border: 0px !important;
+}
+
+ .accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color) !important;
+    background-color: var(--white) !important;
+    box-shadow: 0px !important;
+}
+
+/* Remove border around each accordion item */
+.accordion-item {
+    border: none;
+}
+
+/* Remove border around the accordion header */
+.accordion-header {
+    border: none;
+								border-bottom: 1px solid #E5E5E5 !important;
+}
+
+/* Remove border around the accordion body */
+.accordion-body {
+    border: none;
+    padding: 0; /* Optional: Adjust padding if needed */
+				box-shadow: 0;
+				padding: 10px;
+}
+
+/* Optional: Remove background color on header */
+.accordion-button {
+    background-color: transparent !important;
+    box-shadow: none !important; /* Remove shadow when active */
+    border: none;
+							padding: 25px;
+				/* border-bottom: 1px solid #E5E5E5 !important; */
+}
+
+/* Remove border when accordion is collapsed or expanded */
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: transparent  !important;
+    box-shadow: none;
+}
+
+
+ 
+
+ 
