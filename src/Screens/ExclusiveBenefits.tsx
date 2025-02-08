@@ -11,12 +11,30 @@ const ExclusiveBenefits = () => {
 	return (
 		<main>
 			<div className="box_images">
-				<img src={G4S} alt="G4S" className="image-style" />
-				<img src={dulux} alt="dulux" className="image-style" />
-				<img src={broll} alt="broll" className="image-style" />
-				<img src={cdk} alt="cdk" className="image-style" />
-				<img src={karcher} alt="karcher" className="image-style" />
-				<img src={berger} alt="Berger" className="image-style" />
+				<div className="box_images_items_container">
+					<img src={G4S} alt="G4S" className="image-style" />
+					<p>G4S</p>
+				</div>
+				<div className="box_images_items_container">
+					<img src={dulux} alt="dulux" className="image-style" />
+					<p>Dulux</p>
+				</div>
+				<div className="box_images_items_container">
+					<img src={broll} alt="broll" className="image-style" />
+					<p>Broll</p>
+				</div>
+				<div className="box_images_items_container">
+					<img src={cdk} alt="cdk" className="image-style" />
+					<p>C D K</p>
+				</div>
+				<div className="box_images_items_container">
+					<img src={karcher} alt="karcher" className="image-style" />
+					<p>Karcher</p>
+				</div>
+				<div className="box_images_items_container">
+					<img src={berger} alt="Berger" className="image-style" />
+					<p>Berger</p>
+				</div>
 			</div>
 		</main>
 	)

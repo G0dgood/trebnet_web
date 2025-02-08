@@ -34,7 +34,8 @@ width: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center; 
+	gap: 50px;
 }
 
 .blog_card{ 
@@ -292,3 +293,31 @@ color: #0D0D0D;
 	}
  
 }
+
+/* Add the following CSS for marquee effect */
+
+/* CSS */
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+				margin-top: 100px; 
+}
+
+.marquee_content {
+    display: flex;
+    animation: marquee 100s linear infinite;
+    width: max-content;
+				gap: 30px;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+

@@ -13,7 +13,7 @@ const Footer = () => {
 				<div className='footer_container_main'>
 					<div className='footer_top_container'>
 						<h1 className='footer_top_container_h1'>Trebnet</h1>
-						<p className='footer_first_two'>Easily set up and oversee your online store. Offer products, monitor sales, and do much more with us.</p>
+						<p className='footer_first_two'>Easily set up and oversee your online store. Offer products, and do much more with us.</p>
 						<div className='icon_container'>
 							<Facebook />
 							<X />
@@ -38,7 +38,7 @@ const Footer = () => {
 					</div>
 					<div className='footer_top_container'>
 						<div className='footer_top'>Get Connected </div>
-						<p className='footer_first_two' >Get the latest updates about Shopspace new features and product updates.</p>
+						<p className='footer_first_two' >Get the latest updates about Trebnet new features and product updates.</p>
 						<div className='icon_button_input'>
 							<input />
 							<button className='icon_button'>
