@@ -1,8 +1,4 @@
 
-
-// import phone from "../assets/image/PhoneFrame.png"
-// onClick = {() => navigate('/login')}> Login
-
 const GetYours = () => {
 	return (
 		<section className='section_one '>

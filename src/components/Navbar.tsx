@@ -21,10 +21,10 @@ const Navbar = () => {
 						DIRECTORY
 					</li>
 					<li>
-						MEDIA
+						TRANSACTIONS
 					</li>
 					<li>
-						TRANSACTIONS
+						MEDIA
 					</li>
 				</ul>
 			</div>
