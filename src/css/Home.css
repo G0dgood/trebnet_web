@@ -303,6 +303,7 @@ color: #0D0D0D;
     width: 100%;
     position: relative;
 				margin-top: 100px; 
+				cursor: grab;
 }
 
 .marquee_content {
@@ -310,6 +311,10 @@ color: #0D0D0D;
     animation: marquee 100s linear infinite;
     width: max-content;
 				gap: 30px;
+}
+
+.marquee_content:hover, .marquee_content:active {
+    animation-play-state: paused; /* Pause animation on hover or click */
 }
 
 @keyframes marquee {
