@@ -10,6 +10,9 @@ import broll from '../assets/image/broll.png'
 const ExclusiveBenefits = () => {
 	return (
 		<main>
+			<div className='sponsors_container'>
+				<h1 className='sponsors'>Sponsors</h1>
+			</div>
 			<div className="box_images">
 				<div className="box_images_items_container">
 					<p>G4S</p>
